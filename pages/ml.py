@@ -72,10 +72,10 @@ st.subheader("📊 Model Performance")
 
 metric1, metric2, metric3 = st.columns(3)
 
-# Replace these with your notebook values
-R2_SCORE = 0.94
-MAE = 2.85
-RMSE = 3.71
+
+R2_SCORE = 0.834
+MAE = 3.40
+RMSE = 4.30
 
 with metric1:
     st.metric("R² Score", f"{R2_SCORE:.3f}")
