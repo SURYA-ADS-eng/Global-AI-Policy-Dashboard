@@ -1,0 +1,41 @@
+/* Hide Streamlit Menu */
+#MainMenu {
+    visibility: hidden;
+}
+
+footer {
+    visibility: hidden;
+}
+
+header {
+    visibility: hidden;
+}
+
+/* App Background */
+.stApp {
+    background-color: #F8FAFC;
+}
+
+/* KPI Cards */
+div[data-testid="metric-container"] {
+    background: white;
+    border-radius: 15px;
+    padding: 18px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.08);
+    border-left: 6px solid #2563EB;
+}
+
+/* Buttons */
+.stButton>button {
+    background: #2563EB;
+    color: white;
+    border-radius: 10px;
+    height: 48px;
+    width: 100%;
+    font-weight: bold;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background: #EEF4FF;
+}
